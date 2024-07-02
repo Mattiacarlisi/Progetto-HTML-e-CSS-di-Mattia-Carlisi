@@ -652,6 +652,7 @@ section figure .profile-photo {
 @media (max-width: 992px) {
   .card-container {
     margin: 0 !important;
+    margin: 0 0 20px 0 !important;
   }
   .card-container .card .card-content {
     width: 170px;
