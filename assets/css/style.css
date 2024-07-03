@@ -505,16 +505,16 @@ h2 {
 /*maain intro */
 @media (max-width: 620px) {
   .profile-intro .hello-intro {
-    font-size: 10px !important;
-  }
-  .profile-intro .name-intro {
     font-size: 20px !important;
   }
+  .profile-intro .name-intro {
+    font-size: 30px !important;
+  }
   .profile-intro .passion-intro {
-    font-size: 10px !important;
+    font-size: 20px !important;
   }
   .profile-intro .characteristics-intro {
-    font-size: 12px !important;
+    font-size: 25px !important;
   }
 }
 .profile-actions .btn-contact {

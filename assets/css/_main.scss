@@ -349,16 +349,16 @@ h2{
 @media (max-width: 620px) {
     .profile-intro{
         .hello-intro{
-            font-size: 10px !important;
-        }
-        .name-intro{
             font-size: 20px !important;
         }
+        .name-intro{
+            font-size: 30px !important;
+        }
         .passion-intro{
-            font-size: 10px !important;
+            font-size: 20px !important;
         }
         .characteristics-intro{
-            font-size: 12px !important;
+            font-size: 25px !important;
         }
     }
 }
