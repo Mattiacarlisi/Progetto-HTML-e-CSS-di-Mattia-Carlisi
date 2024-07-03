@@ -547,7 +547,10 @@ section figure .profile-photo {
     text-align: center;
   }
   .about-section .about-me p {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
     margin-left: 0;
     margin-right: 0;
     padding: 0;
@@ -605,8 +608,12 @@ section figure .profile-photo {
     font-size: 1.875rem;
   }
   .studio .studio-me p {
-    text-align: center;
-    font-size: 0.9375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 16px !important;
   }
 }
 @media (max-width: 480px) {
@@ -629,11 +636,19 @@ section figure .profile-photo {
   }
 }
 @media (max-width: 1000px) {
+  .studio .photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .studio .photo-container .photo-about-studio {
-    height: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .studio .studio-me p {
-    width: 90%;
+    width: 85%;
   }
 }
 /*maain cards  */
