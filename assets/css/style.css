@@ -485,52 +485,6 @@ h2 {
   font-style: italic;
 }
 
-/* Media Queries recensioni*/
-@media (max-width: 768px) {
-  .reviews-container {
-    padding: 0 !important;
-  }
-  .reviews-container .reviews {
-    flex-direction: column;
-    white-space: normal;
-    animation: none;
-  }
-  .reviews-container .reviews .review {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0;
-    font-size: 14px;
-  }
-  .reviews-container .reviews .review .review-text {
-    font-size: 14px;
-  }
-  .reviews-container .reviews .review .stars {
-    font-size: 20px;
-  }
-  .reviews-container .reviews .review .reviewer {
-    font-size: 14px;
-  }
-}
-@media (max-width: 480px) {
-  .reviews-container {
-    padding: 0 !important;
-  }
-  .reviews-container .reviews .review {
-    width: 90%;
-    padding: 10px;
-    margin: 5px 0;
-    font-size: 12px;
-  }
-  .reviews-container .reviews .review .review-text {
-    font-size: 12px;
-  }
-  .reviews-container .reviews .review .stars {
-    font-size: 18px;
-  }
-  .reviews-container .reviews .review .reviewer {
-    font-size: 12px;
-  }
-}
 @keyframes scroll-reviews {
   0% {
     transform: translateX(100%);

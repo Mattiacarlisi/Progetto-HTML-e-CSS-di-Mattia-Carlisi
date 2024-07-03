@@ -322,64 +322,6 @@ h2{
 }
 }
 
-/* Media Queries recensioni*/
-@media (max-width: 768px) {
-    .reviews-container {
-        padding: 0 !important;
-  
-      .reviews {
-        flex-direction: column;
-        white-space: normal;
-        animation: none;
-  
-        .review {
-          width: 100%;
-          padding: 15px;
-          margin: 5px 0;
-          font-size: 14px;
-  
-          .review-text {
-            font-size: 14px;
-          }
-  
-          .stars {
-            font-size: 20px;
-          }
-  
-          .reviewer {
-            font-size: 14px;
-          }
-        }
-      }
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .reviews-container {
-      padding: 0 !important;
-  
-      .reviews {
-        .review {
-          width: 90%;
-          padding: 10px;
-          margin: 5px 0;
-          font-size: 12px;
-  
-          .review-text {
-            font-size: 12px;
-          }
-  
-          .stars {
-            font-size: 18px;
-          }
-  
-          .reviewer {
-            font-size: 12px;
-          }
-        }
-      }
-    }
-  }
 
 @keyframes scroll-reviews {
     0% {
