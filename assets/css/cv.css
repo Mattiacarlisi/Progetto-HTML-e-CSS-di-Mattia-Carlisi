@@ -45,9 +45,9 @@
 }
 .education-section .title {
   display: flex;
-  flex-direction: column;
-  margin-right: 20px;
-  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .education-section .education-item {
   display: flex;
