@@ -643,9 +643,6 @@ section figure .profile-photo {
   }
   .studio .photo-container .photo-about-studio {
     height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .studio .studio-me p {
     width: 85%;
