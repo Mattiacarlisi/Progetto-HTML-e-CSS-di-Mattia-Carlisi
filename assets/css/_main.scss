@@ -322,6 +322,64 @@ h2{
 }
 }
 
+/* Media Queries recensioni*/
+@media (max-width: 768px) {
+    .reviews-container {
+        padding: 0 !important;
+  
+      .reviews {
+        flex-direction: column;
+        white-space: normal;
+        animation: none;
+  
+        .review {
+          width: 100%;
+          padding: 15px;
+          margin: 5px 0;
+          font-size: 14px;
+  
+          .review-text {
+            font-size: 14px;
+          }
+  
+          .stars {
+            font-size: 20px;
+          }
+  
+          .reviewer {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .reviews-container {
+      padding: 0 !important;
+  
+      .reviews {
+        .review {
+          width: 90%;
+          padding: 10px;
+          margin: 5px 0;
+          font-size: 12px;
+  
+          .review-text {
+            font-size: 12px;
+          }
+  
+          .stars {
+            font-size: 18px;
+          }
+  
+          .reviewer {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
 
 @keyframes scroll-reviews {
     0% {
@@ -449,14 +507,15 @@ section {
         align-items: center;
         justify-content: center;
         text-align: center;
-        
+        max-width: 100%;
+
         .photo-container {
-            margin-left: 0;
-            margin-top: 20px; 
+            margin: 20px 0 0 0; // Combines margin-left, margin-right, and margin-top
             text-align: center;
-            margin-right:0;
+
             .photo-about-studio {
-                height: 250px;
+                height: auto;
+                max-width: 100%; // Ensures the image scales correctly
             }
         }
 
@@ -464,22 +523,52 @@ section {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin:0;
-            
+            margin: 0;
+            padding: 10px; // Adds some padding for spacing
+
             .btn-contact-2 {
-                margin: 0px;
-                font-size: 20px;
-                width: 120px;
-                margin-left:0 !important;
-                
+                margin: 10px 0 0 0; // Adds margin at the top and resets others
+                font-size: 1rem; // Uses relative units
+                width: auto; // Ensures the button size is flexible
             }
 
-            h2{
-                font-size: 30px;
+            h2 {
+                font-size: 1.875rem; // Uses relative units (30px = 1.875rem)
             }
-            p{
+
+            p {
                 text-align: center;
-                font-size: 15px;
+                font-size: 0.9375rem; // Uses relative units (15px = 0.9375rem)
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .studio {
+        .photo-container {
+            .photo-about-studio {
+                display:none !important;
+            }
+        }
+
+        .studio-me {
+            padding: 10px; // Ensures proper spacing
+
+            h2 {
+                font-size: 1.5rem; // Adjusts font size for very small screens
+            }
+
+            p {
+                font-size: 0.875rem; // Adjusts font size for very small screens
+                padding: 10px; // Adds some padding for spacing
+            }
+
+            .btn-contact-2 {
+                font-size: 0.875rem; // Adjusts font size for very small screens
+                padding: 10px 15px; // Adjusts padding for better touch targets
+                width: auto;
             }
         }
     }
@@ -500,6 +589,9 @@ section {
     }
 
 }
+
+
+
 
    
 
