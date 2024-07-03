@@ -1,9 +1,16 @@
+/* main variable*/
+.main-cv {
+  padding: 20Px;
+}
+
+/* main CV about me*/
 .profile-cv figure .cv-foto {
   width: auto;
   height: 200px;
   border-radius: 10%;
 }
 
+/* progres bars*/
 .level {
   width: 100%;
   max-width: 500px;
@@ -83,4 +90,20 @@
 .education-section .education-item .education-details .relatore-thesis {
   font-weight: bold;
   font-style: italic;
+}
+
+/*competenze finanziarie*/
+.education-section .description2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 90%;
+}
+
+/*competenze tecnologiche*/
+.education-section .description3 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 90%;
 }/*# sourceMappingURL=cv.css.map */
