@@ -624,9 +624,8 @@ section figure .profile-photo {
     padding: 10px;
   }
   .studio .studio-me .btn-contact-2 {
-    font-size: 0.875rem;
-    padding: 10px 15px;
-    width: auto;
+    font-size: 20px;
+    width: 120px !important;
   }
 }
 @media (max-width: 1000px) {

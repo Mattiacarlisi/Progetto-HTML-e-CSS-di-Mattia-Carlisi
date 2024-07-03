@@ -496,21 +496,21 @@ section {
         }
 
         .studio-me {
-            padding: 10px; // Ensures proper spacing
+            padding: 10px; 
 
             h2 {
-                font-size: 1.5rem; // Adjusts font size for very small screens
+                font-size: 1.5rem; 
             }
 
             p {
-                font-size: 0.875rem; // Adjusts font size for very small screens
-                padding: 10px; // Adds some padding for spacing
+                font-size: 0.875rem; 
+                padding: 10px; 
             }
 
             .btn-contact-2 {
-                font-size: 0.875rem; // Adjusts font size for very small screens
-                padding: 10px 15px; // Adjusts padding for better touch targets
-                width: auto;
+                font-size: 20px;
+                width: 120px !important;
+                
             }
         }
     }
