@@ -245,7 +245,7 @@ section figure .profile-photo {
   border-radius: 10%;
 }
 section .profile-intro .hello-intro {
-  font-size: 19px;
+  font-size: 25px;
   overflow: hidden;
   white-space: nowrap;
   animation: animateHelloIntro 3s ease-in;
@@ -254,16 +254,16 @@ section .profile-intro .name-intro {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 33px;
+  font-size: 40px;
 }
 section .profile-intro .passion-intro {
-  font-size: 19px;
+  font-size: 25px;
 }
 section .profile-intro .characteristics-intro {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .profile-actions .btn-contact {
@@ -958,12 +958,19 @@ body {
   }
 }
 
+/* main variable*/
+.main-cv {
+  padding: 20Px;
+}
+
+/* main CV about me*/
 .profile-cv figure .cv-foto {
   width: auto;
   height: 200px;
   border-radius: 10%;
 }
 
+/* progres bars*/
 .level {
   width: 100%;
   max-width: 500px;
@@ -998,9 +1005,9 @@ body {
 }
 .education-section .title {
   display: flex;
-  flex-direction: column;
-  margin-right: 20px;
-  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .education-section .education-item {
   display: flex;
@@ -1043,4 +1050,20 @@ body {
 .education-section .education-item .education-details .relatore-thesis {
   font-weight: bold;
   font-style: italic;
+}
+
+/*competenze finanziarie*/
+.education-section .description2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 90%;
+}
+
+/*competenze tecnologiche*/
+.education-section .description3 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 90%;
 }/*# sourceMappingURL=style.css.map */
