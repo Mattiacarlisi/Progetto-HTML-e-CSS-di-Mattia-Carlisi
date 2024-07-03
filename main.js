@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 /*parole dinamiche del CV*/
 
 document.addEventListener("DOMContentLoaded", function() {
-    var words = ['finance', 'Start-up', 'wellness', 'web Developer'];
+    var words = ['Finance', 'Start-up', 'Wellness', 'Web Developer'];
     var counter = 0;
     var word = document.getElementById("cvprofile");
 
